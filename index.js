@@ -7,3 +7,11 @@ function truncateString(str, num) {
     }
   }
   truncateString("A-tisket a-tasket A green and yellow basket", 8);
+// Convert Celsius to Fahrenheit
+  function convertCtoF(celsius) {
+    let fahrenheit = celsius * (9 / 5) + 32;
+    return fahrenheit;
+  }
+  
+  convertCtoF(30);
+  
