@@ -59,3 +59,15 @@ function frankenSplice(arr1, arr2, n) {
   }
   
   frankenSplice([1, 2, 3], [4, 5, 6], 1);
+  
+  //Falsy Bouncer
+
+  function bouncer(arr) {
+    let truthies = [];
+    for (let elem of arr){
+      if(elem) truthies.push(elem)
+    }
+    return truthies ;
+  }
+  
+  bouncer([7, "ate", "", false, 9]);
